@@ -21,4 +21,9 @@ public class CardsService {
     public List<Card> getCardsByCustomer(Customer customer) {
         return cardsRepository.findByCustomerId(customer.getCustomerId());
     }
+
+    // just for learning and testing using transactional
+    public Card saveCard(Card card) {
+        return cardsRepository.save(card);
+    }
 }

@@ -60,7 +60,6 @@ class CardsServiceTest {
     private Card createCard() {
         return new Card()
                 .cardNumber(CARD_NUMBER)
-                .cardNumber(CARD_NUMBER)
                 .cardId(CARD_ID)
                 .customerId(CUSTOMER_ID)
                 .amountUsed(AMOUNT_USED)
